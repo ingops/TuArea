@@ -161,6 +161,6 @@ function obtener() {
     document.getElementById("resultados").innerHTML = r;
 }
 
-
+/*CALCULADORA*/
 
     

@@ -1,11 +1,14 @@
+/*importar fuentes para todos*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap%27');
+/*inicializa unos parametros para toda la pagina*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
 html{
     margin-left: 12rem;
     margin-right: 12rem;
@@ -17,6 +20,7 @@ html{
    background-color:#262626;
    height: 100vh;
 }
+/*todo el titulo*/
 .titulo{
     text-align: center;
     display: block;
@@ -25,6 +29,7 @@ html{
     color: white;
     font-size: 25px;
 }
+/*todo lo relacionado con la parte de abajo, no mover a menos de añadir copyright o texto dentro de el*/
 footer{
     position: fixed;
     left: 12rem;
@@ -33,10 +38,7 @@ footer{
     background-color:#016eb3;
     height: 5rem;
 }
-.menu{
-    display: inline-flex;
-    
-}
+/*categorias por capa del menu*/
 .menuP{
     box-shadow: black 0px 0px 30px;
     background-color:#016eb3 ;
@@ -44,14 +46,16 @@ footer{
     text-align: center; 
     border-radius: 6px;
     padding: 1rem;
-    transition: all 0.4s linear;
+    transition: all 0.4s linear;/*maneja las trancisiones de cambio del objeto*/
+}
+.menu{
+    display: inline-flex; /*centra los objetos de cada uno*/
 }
 .menu-m1{
     padding: 9px;
     border-radius: 10px;
     transition: all 0.5s ease;
     color: white;
-   
 }
 .menu-m1 a{
     text-decoration: none;
@@ -59,11 +63,12 @@ footer{
     padding: 12px;
     
 }
+
+/*animaciones del menu*/
 .menu-m1:hover{
     background-color: white;
     transition: all 0.5s ease;
 }
-
 .menu-m1:hover{
     background-color:#005a92;
 }
@@ -71,13 +76,14 @@ footer{
     background-color: white;
 }
 
-.centro{
+/*centro es la base de las cajas de contenido de la pagina*/
+.centro{/*centramos todo el contenido*/
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
-.caja{  
+.caja{  /*tamaños y margen de cada caja*/
     height: 50vh;
     width: 50vh;
     margin: 1cm;
@@ -97,6 +103,8 @@ footer{
     box-shadow: black 0px 0px 30px 0px;
     transition: all 0.6s ease;
 }
+
+/*.caja-# hace referencia a la caja especifica a la que quiere hacer algo*/
 .caja.caja-2{
     box-shadow: black 0px 0px 30px;
     border-radius: 15px;
@@ -118,7 +126,8 @@ footer{
 .medidaBase{
     margin-top: 10px;
 }
-select{
+
+select{/*todo lo relacionado conlos combobox no mover, ni yo se que hace*/
     display: block;
   font-size: 16px;
   font-family: 'Verdana', sans-serif;
@@ -143,6 +152,8 @@ select{
   background-position: right .7em top 50%, 0 0;
   background-size: .65em auto, 100%;
 }
+
+/*centrado de varios ovjetos y tamaño de imagenes*/
 .numero{
   text-align: center;
 }
@@ -176,7 +187,7 @@ select.medida{
   display: inline-block;
 }
 
-/*corrediso*/
+/*genera el efecto carrousel no mover*/
 
 .wrapper{
   width: 100%;
