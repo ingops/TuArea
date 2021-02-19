@@ -165,6 +165,7 @@ var operandoa = 0;
 var operandob = 0;
 var operacion = 0;
 
+
 function init(){
     //variables
     var final = document.getElementById('final');
