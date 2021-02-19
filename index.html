@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="StyleSheet" href="css/style.css"/>
+    <script src="js/areas.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenido">
+        <header>
+            <div class="titulo">
+                <h1>CALCULADORA</h1>
+            </div>
+        </header>
+        <center>
+            <nav>
+                <div class="menuP">
+                    <div class="menu">
+                        <div class="menu-m1"><a href="calculadora.html">CALCULADORA</a></div>
+                        <div class="menu-m1"><a href="index.html">CONVERSION</a></div>
+                        <div class="menu-m1"><a href="areas.html">AREAS</a></div>
+                    </div>
+                </div>
+            </nav>
+        </center>
+       
+            <div class="centro">
+                <div class="caja caja-4"></div>
+                <div class="caja caja-5">
+                    <div class="numero">
+                        <input id="dato1" placeholder="Numero" type="text">
+                    </div>
+                    <div class="medidasConversion">
+                        <select class="medida" id="medida1">
+                        <option value="0"></option>
+                        <optgroup label="medidas inglesas">
+                            <option value="1">Pulgadas</option>
+                            <option value="2">Pies</option>
+                            <option value="3">Yardas</option>
+                            <option value="4">Millas</option>
+                        </optgroup>
+                        <optgroup label="Medidas internacionales">
+                            <option value="5">Milimetros</option>
+                            <option value="6">Centimetros</option>
+                            <option value="7">Metros</option>
+                            <option value="8">kilometros</option>
+                            <option value="9">Decametros</option>
+                        </optgroup>
+                        </select>
+                        <div class="flecha">
+                            <img src="img/Flecha.png" alt="flecha">
+                        </div>
+                        <select class="medida" id="medida2">
+                            <option value="0"></option>
+                            <optgroup label="medidas inglesas">
+                                <option value="1">Pulgadas</option>
+                                <option value="2">Pies</option>
+                                <option value="3">Yardas</option>
+                                <option value="4">Millas</option>
+                            </optgroup>
+                            <optgroup label="Medidas internacionales">
+                                <option value="5">Milimetros</option>
+                                <option value="6">Centimetros</option>
+                                <option value="7">Metros</option>
+                                <option value="8">kilometros</option>
+                                <option value="9">Decametros</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div onclick="obtener()" class="calcular">
+                        <div  class="boton">
+                            <p>Calcular</p>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="caja caja-3">
+                    <div class="resultados">
+                        <label id="resultados"> </label>
+                    </div>
+                </div>
+            </div>
+        
+        <footer>
+            <div class="creditos"></div>
+        </footer>
+    </div>
+</body>
+</html>

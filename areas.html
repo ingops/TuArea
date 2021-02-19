@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="StyleSheet" href="css/style.css"/>
+    <title>Document</title>
+    <script src="js/areas.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+<body>
+    <div class="contenido">
+        <header>
+            <div class="titulo">
+                <h1>CALCULADORA</h1>
+            </div>
+        </header>
+        <center>
+            <nav>
+                <div class="menuP">
+                    <div class="menu">
+                        <div class="menu-m1"><a href="calculadora.html">CALCULADORA</a></div>
+                        <div class="menu-m1"><a href="index.html">CONVERSION</a></div>
+                        <div class="menu-m1"><a href="areas.html">AREAS</a></div>
+                    </div>
+                </div>
+            </nav>
+        </center>
+            <div class="centro">
+                <div class="caja caja-1"></div>
+                <div class="caja caja-2">
+                    <!--figuras moviles-->
+                    <div class="wrapper">
+                        <div class="carousel owl-carousel">
+                            <div value="2" onclick="noFigura2()" class="card card-1"><img src="img/Picture1.png" alt="1"></div>
+                            <div value="1" onclick="noFigura1()" class="card card-2"><img src="img/Picture2.png" alt="1"></div>
+                            <div value="4" onclick="noFigura4()" class="card card-3"><img src="img/Picture3.png" alt="1"></div>
+                            <div value="3" onclick="noFigura3()" class="card card-4"><img src="img/Picture4.png" alt="1"></div>
+                        </div>
+                    </div>  
+                    <script>
+                        $(".carousel").owlCarousel({
+                            margin: 20,
+                            loop: true,
+                            autoplay:true,
+                            responsive: {
+                                0:{
+                                    items:1,
+                                    nav: false
+                                },
+                                600:{
+                                    items:2,
+                                    nav: false
+                                },
+                                1000:{
+                                    items:3,
+                                    nav: false
+                                }
+                            }
+                            });
+                    </script>   
+                    <div class="campos" align="center">
+                        <input id="Base" placeholder="Base"></input>
+                        <input id="Altura" placeholder="Altura"></input>
+                        
+                        <br>
+                        <select id="medida">
+                            <option value="mm">mm</option>
+                            <option value="m">m</option>
+                            <option value="cm">cm</option>
+                        </select>
+                        <div onclick="calcular()" class="boton">
+                            <p>Calcular</p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="caja caja-3">
+                    <h1>RESULTADO:</h1>
+                    <h1 id="resultado"></h1> 
+                </div>
+                
+            </div>
+        
+        <footer>
+            <div class="creditos"></div>
+        </footer>
+    </div>
+</body>
+</html>

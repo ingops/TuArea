@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap%27');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html{
+    margin-left: 12rem;
+    margin-right: 12rem;
+    /*background: linear-gradient(-500deg,#FA08E9,#0828FF);*/
+    background-color: #050d18;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%2319769f' fill-opacity='0.58'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.contenido{
+   background-color:#262626;
+   height: 100vh;
+}
+.titulo{
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+}
+footer{
+    position: fixed;
+    left: 12rem;
+    right: 12rem;
+    bottom: 0;
+    background-color:#016eb3;
+    height: 5rem;
+}
+.menu{
+    display: inline-flex;
+    
+}
+.menuP{
+    box-shadow: black 0px 0px 30px;
+    background-color:#016eb3 ;
+    width: 50%;
+    text-align: center; 
+    border-radius: 6px;
+    padding: 1rem;
+    transition: all 0.4s linear;
+}
+.menu-m1{
+    padding: 9px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    color: white;
+   
+}
+.menu-m1 a{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    
+}
+.menu-m1:hover{
+    background-color: white;
+    transition: all 0.5s ease;
+}
+
+.menu-m1:hover{
+    background-color:#005a92;
+}
+.menu-m1:visited{
+    background-color: white;
+}
+
+.centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.caja{  
+    height: 50vh;
+    width: 50vh;
+    margin: 1cm;
+}
+.resultado{
+    margin-top: 150px;
+}
+.boton{
+    margin-top: 5vh;
+    border-radius: 10px;
+    border: 2px ;
+    width: 13vh;
+    transition: all 0.6s ease;
+    text-align: center;
+}
+.boton:hover{
+    box-shadow: black 0px 0px 30px 0px;
+    transition: all 0.6s ease;
+}
+.caja.caja-2{
+    box-shadow: black 0px 0px 30px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+.caja.caja-3{
+    height: 20vh;
+    box-shadow: black 0px 0px 30px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.caja.caja-5{
+  box-shadow: black 0px 0px 30px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  padding-top: 10vh;
+}
+.medidaBase{
+    margin-top: 10px;
+}
+select{
+    display: block;
+  font-size: 16px;
+  font-family: 'Verdana', sans-serif;
+  font-weight: 30px;
+  color: #444;
+  line-height: 1;
+  padding: .4em 1.4em .3em .8em;
+  width: 70px;
+  max-width: 100%; 
+  box-sizing: border-box;
+ margin: 20px auto;
+  border: 1px solid #aaa;
+  box-shadow: 0 1px 0 1px rgba(0,0,0,.03);
+  border-radius: .3em;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+    linear-gradient(to bottom, #ffffff 0%,#f7f7f7 100%);
+  background-repeat: no-repeat, repeat;
+  background-position: right .7em top 50%, 0 0;
+  background-size: .65em auto, 100%;
+}
+.numero{
+  text-align: center;
+}
+.medidasConversion{
+  margin-top: 5vh;
+  text-align: center;
+}
+.resultados{
+  padding-top: 15%;
+  text-align: center;
+}
+.resultados label{
+  font-size: 30px;
+}
+select.medida{
+  display: inline-block;
+}
+.flecha img{
+  height: 100%;
+  width: 100%;
+}
+.flecha{
+  height: 10%;
+  width: 10%;
+  display: inline-block;
+}
+.calcular{
+  text-align: center;
+}
+.calcular div{
+  display: inline-block;
+}
+
+/*corrediso*/
+
+.wrapper{
+  width: 100%;
+}
+.carousel{
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+.carousel .card{
+  text-align: center;
+  margin: 0px ;
+  line-height: 1200px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+.carousel .card-1{
+  background: #ed1c24;
+}
+.carousel .card-2{
+  background: #0072bc;
+}
+.carousel .card-3{
+  background: #39b54a;
+}
+.carousel .card-4{
+  background: #f26522;
+}
+.carousel .card-5{
+  background: #630460;
+}
+
