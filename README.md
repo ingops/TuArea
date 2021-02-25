@@ -29,6 +29,8 @@ La pagina va a contar con licencias Creative Commons que son de libre uso, utili
 
 El tiempo estimado de desarrollo se establecio en 3 dias, siendo el dia uno para levantamiento de requerimiento y analasis de los mismos, y los otros dos para desarrollo y entrega al cliente y subidop al repositorio de la organizacion.
 
+link Pagina: www.tuarea.ga
+
 ## Reglas de negocio
 1. Todo cliente tiene permitido adquirir cualquier copia de la Calculadora, y a usarla para proposito personal, académico e industrial.
 
