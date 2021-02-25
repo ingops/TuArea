@@ -23,7 +23,12 @@
  
 
 ## Introduccion
-Nuestros clientes pidieron una calculadora especifica ya que necesitan sacar medidas y areas de manera rapida y ademas de elegir las medidas en la que los quieren para asi poder sacar la cantidad exacta de material.
+Se solicita el desarrllo de una pagina web que tenga diferentes funcionalidades, todas enfocadas a operaciones matematicas y con un diseño en particular, entre las funcinalidades esta una calculadora, un conversor de medidas que cuente con medidas internacionales todo mostrado en pantalla en tiempo real. 
+
+La pagina va a contar con licencias Creative Commons que son de libre uso, utilizando tecnologias como lo son JavaScript,HTML 5,CSS 3,GIT y herramientas de diseño como Photoshop.
+
+El tiempo estimado de desarrollo se establecio en 3 dias, siendo el dia uno para levantamiento de requerimiento y analasis de los mismos, y los otros dos para desarrollo y entrega al cliente y subidop al repositorio de la organizacion.
+
 ## Reglas de negocio
 1.1 Todo cliente tiene permitido adquirir cualquier copia de la Calculadora, y a usarla para proposito personal, académico e industrial, pero no para su comercialización.
 
