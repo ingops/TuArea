@@ -23,18 +23,23 @@
  
 
 ## Introduccion
-Nuestros clientes pidieron una calculadora especifica ya que necesitan sacar medidas y areas de manera rapida y ademas de elegir las medidas en la que los quieren para asi poder sacar la cantidad exacta de material.
+
 ## Reglas de negocio
-1.1 Todo cliente tiene permitido adquirir cualquier copia de la Calculadora, y a usarla para proposito personal, académico e industrial, pero no para su comercialización.
+1. Todo cliente tiene permitido adquirir cualquier copia de la Calculadora, y a usarla para proposito personal, académico e industrial, pero no para su comercialización.
 
-1.2 No está permitido usar la aplicación para su comercialización, a menos que se le de reconocimiento o meritos a sus desarrolladores.
+2. No está permitido usar la aplicación para su comercialización, a menos que se le de reconocimiento o meritos a sus desarrolladores.
 
-1.3 Al ser una aplicación de código abierto, está prohibido hacer ediciones al código base sin la autorización de los desarrolladores, por lo cual, se podría llegar a tener problemas legales.
+3. Al ser una aplicación de código abierto, está prohibido hacer ediciones al código base sin la autorización de los desarrolladores, por lo cual, se podría llegar a tener problemas legales.
 
-1.4 Cualquier donación a los desarroladores está permitida siempre y cuando, sea legalmente, por ejemplo transacción.
+4. Cualquier donación a los desarrolladores está permitida siempre y cuando, sea legalmente, por ejemplo transacción.
 
 ## Requerimientos
 ### levantamiento de requerimientos
+  1. Facil acceso desde *cualquier dispositivo* sin perder ninguna cualidad
+  2. Es necesarioa una calculadora con operaciones basicas para poder obtener medidas exactas en el instante que sea deseado 
+  3. Conversor de medidas tanto internacionales, como las usadas por estados unidos 
+  4. Un apartado de areas para las figuras mas basicas (triangulo,circulo,rectangulo, etc) para ayudar a sacar cantidades de material con exactitud
+  
 ### analisis de requerimientos
 #### diagrama de casos
 ## diseño de requerimientos
