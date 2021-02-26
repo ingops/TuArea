@@ -65,6 +65,7 @@ Link Pagina: www.tuarea.ga
    <strong> Atribución – No comercial – Compartir:</strong> Están permitidos, otros a distribuir, remezclar, retocar, y crear a partir de tu obra de modo no comercial, siempre y cuando te den crédito y licencien sus nuevas creaciones bajo las mismas condiciones.
    
    <strong>Licencia de Fuente:</strong> Estas fuentes tienen licencia de Open Font License.
+
 Puede usarlos libremente en sus productos y proyectos, impresos o digitales, comerciales o de otro tipo. Sin embargo, no puede vender las fuentes por sí solas.
 Esto no es un consejo legal, considere consultar a un abogado y consulte la licencia completa para obtener todos los detalles.
    
