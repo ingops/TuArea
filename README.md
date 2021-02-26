@@ -72,9 +72,8 @@ https://fonts.google.com/specimen/DM+Mono?query=Mono+&preview.text_type=custom&s
 
 https://fonts.google.com/specimen/DM+Mono?query=Mono+&preview.text_type=custom&sidebar.open=true&selection.family=DM+Mono|Roboto+Mono#about
 
-<strong>GitHub del creador:</strong> github.com/googlefonts/dm-mono
 
-<strong>Atribuciones de Mockups: </strong>
+
    
 
 
