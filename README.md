@@ -66,6 +66,7 @@ Link Pagina: www.tuarea.ga
 Atribuiremos con el link del creador, o creadores, siempre y cuando, los demás hagan lo mismo de acuerdo con la licencia pactada arriba.
 
 [https://fonts.google.com/specimen/DM+Mono?query=Mono+&preview.text_type=custom&sidebar.open=true&selection.family=DM+Mono|Roboto+Mono#standard-styles]
+
 [https://fonts.google.com/specimen/DM+Mono?query=Mono+&preview.text_type=custom&sidebar.open=true&selection.family=DM+Mono|Roboto+Mono#about]
 
 <strong>GitHub del creador:</strong> github.com/googlefonts/dm-mono
