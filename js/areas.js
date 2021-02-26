@@ -44,32 +44,7 @@
         if(medida == "mm"){
             resultado = numeroFinal +" "+medida; 
         }
-        /*
-        if(medida1 == "m" && medida2 == "cm"){
-        numeroFinal = numeroFinal * 100;
-        resultado = numeroFinal +" " +medida2;
-        }
-        if(medida1 == "m" && medida2 == "mm"){
-            numeroFinal = numeroFinal * 1000;
-            resultado = numeroFinal +" " +medida2;
-        }  
-        if(medida1 == "cm" && medida2 == "m"){
-            numeroFinal = numeroFinal/100;
-            resultado = numeroFinal +" " +medida2;
-        }
-        if(medida1 == "cm" && medida2 == "mm"){
-            numeroFinal = numeroFinal*10;
-            resultado = numeroFinal +" " +medida2;
-        }
-        if(medida1 == "mm" && medida2 == "m"){
-            numeroFinal = numeroFinal/1000;
-            resultado = numeroFinal +" " +medida2;
-        }
-        if(medida1 == "mm" && medida2 == "cm"){
-            numeroFinal = numeroFinal/10;
-            resultado = numeroFinal +" " +medida2;
-        }  */
-            mostrar();
+        mostrar();
     }
 
     function mostrar(){
