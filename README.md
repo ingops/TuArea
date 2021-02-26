@@ -14,14 +14,14 @@
   - [Introduccion](#introduccion)
   - [Reglas de negocio](#reglas-de-negocio)
   - [Requerimientos](#requerimientos)
-    - [levantamiento de requerimientos](#levantamiento-de-requerimientos)
-    - [analisis de requerimientos](#analisis-de-requerimientos)
-      - [diagrama de casos](#diagrama-de-casos)
-  - [diseño de requerimientos](#diseño-de-requerimientos)
-  - [desarrollo](#desarrollo)
-  - [pruebas](#pruebas)
-  - [implementacion](#implementacion)
-  - [mantenimiento](#mantenimiento)
+    - [Levantamiento de requerimientos](#levantamiento-de-requerimientos)
+    - [Analisis de requerimientos](#analisis-de-requerimientos)
+      - [Diagrama de casos](#diagrama-de-casos)
+  - [Diseño de requerimientos](#diseño-de-requerimientos)
+  - [Desarrollo](#desarrollo)
+  - [Pruebas](#pruebas)
+  - [Implementacion](#implementacion)
+  - [Mantenimiento](#mantenimiento)
  
 
 ## Introduccion
@@ -42,21 +42,21 @@ link Pagina: www.tuarea.ga
 
 
 ## Requerimientos
-### levantamiento de requerimientos
-  1. Facil acceso desde *cualquier dispositivo* sin perder ninguna cualidad.
+### Levantamiento de requerimientos
+  1. Facil acceso desde <strong>*cualquier dispositivo*</strong> sin perder ninguna cualidad.
   2. Es necesarioa una calculadora con operaciones basicas para poder obtener medidas exactas en el instante que sea deseado. 
   3. Conversor de medidas tanto internacionales, como las usadas por estados unidos.
   4. Un apartado de areas para las figuras mas basicas (triangulo,circulo,rectangulo, etc) para ayudar a sacar cantidades de material con exactitud.
   
-### analisis de requerimientos
-  1. para que la aplicacion sea funcional en todos los dispositivos necesitamos el uso del lenguaje JavaScrip ademas de otro tipo de herramientas como lo son CSS y HTML, con esto se busca llegar a el punto maximo de responsive posible.
+### Analisis de requerimientos
+  1. Para que la aplicacion sea funcional en todos los dispositivos necesitamos el uso del lenguaje JavaScrip ademas de otro tipo de herramientas como lo son CSS y   HTML, con esto se busca llegar a el punto maximo de responsive posible.
   2. Su accesibilidad no debe ser limitada por la hora del dia por ello necesitamos un hosting.
   3. Uso de JavaScript para la funcionalidad de las partes que requieran operaciones matematicas, esto se aplica tanto a la calculadora como a los conversores de medidas y a la parte de las areas.
-#### diagrama de casos
-## diseño de requerimientos
-## desarrollo
-## pruebas
-## implementacion
-## mantenimiento
+#### Diagrama de casos
+## Diseño de requerimientos
+## Desarrollo
+## Pruebas
+## Implementacion
+## Mantenimiento
 
 
