@@ -45,7 +45,7 @@ Link Pagina: www.tuarea.ga
 ### Levantamiento de requerimientos
   1. Fácil acceso desde <strong>*cualquier dispositivo*</strong> sin perder ninguna cualidad.
   2. Es necesarioa una calculadora con operaciones basicas para poder obtener medidas exactas en el instante que sea deseado. 
-  3. Conversor de medidas tanto internacionales, como las usadas por paíse angroparlantes.
+  3. Conversor de medidas tanto internacionales, como las usadas por países angroparlantes, entre otros.
   4. Un apartado de áreas para las figuras más básicas (triangulo, circulo, rectangulo, etc) para ayudar a dar sus resultados en cantidades de material con exactitud.
   
 ### Analisis de requerimientos
