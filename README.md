@@ -6,6 +6,8 @@
 
 ## <center> Christian Martinez </center>
 
+## <center> Angel Cruz </center>
+
 ## <center> Politecnico internacional</center>
 
 # Tabla de contenido
