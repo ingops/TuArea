@@ -61,6 +61,7 @@ Link Pagina: www.tuarea.ga
 ## Licencia y atribuciones
 ### Licencia
 ![Imagén](https://github.com/ingops/TuArea/blob/main/Licencia.png)
+   
    <strong> Atribución – No comercial – Compartir:</strong> Están permitidos, otros a distribuir, remezclar, retocar, y crear a partir de tu obra de modo no comercial, siempre y cuando te den crédito y licencien sus nuevas creaciones bajo las mismas condiciones.
    
    <strong>Licencia de Fuente:</strong> Estas fuentes tienen licencia de Open Font License.
