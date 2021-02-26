@@ -58,26 +58,23 @@ Link Pagina: www.tuarea.ga
 ## Pruebas
 ## Implementacion
 ## Mantenimiento
-## Licencia y atribuciones
+## Licencia y terceros
 ### Licencia
 ![Imagén](https://github.com/ingops/TuArea/blob/main/Licencia.png)
    
    <strong> Atribución – No comercial – Compartir:</strong> Están permitidos, otros a distribuir, remezclar, retocar, y crear a partir de tu obra de modo no comercial, siempre y cuando te den crédito y licencien sus nuevas creaciones bajo las mismas condiciones.
    
-   <strong>Licencia de Fuente:</strong> Estas fuentes tienen licencia de Open Font License.
+### Terceros
+<strong>Licencia de Fuente:</strong> Estas fuentes tienen licencia de Open Font Licens, https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL.
 
-Puede usarlos libremente en sus productos y proyectos, impresos o digitales, comerciales o de otro tipo. Sin embargo, no puede vender las fuentes por sí solas.
-Esto no es un consejo legal, considere consultar a un abogado y consulte la licencia completa para obtener todos los detalles.
-   
-### Atribuciones
-<strong>Fuente:</strong> Usamos la fuente About DM Mono para el desarrollo del texto en nuestro proyecto, e inicialmente, es la que elegimos desde que se inició por su agradable visualización.
-Atribuiremos con el link del creador, o creadores, siempre y cuando, los demás hagan lo mismo de acuerdo con la licencia pactada arriba.
 
 https://fonts.google.com/specimen/DM+Mono?query=Mono+&preview.text_type=custom&sidebar.open=true&selection.family=DM+Mono|Roboto+Mono#standard-styles
 
 https://fonts.google.com/specimen/DM+Mono?query=Mono+&preview.text_type=custom&sidebar.open=true&selection.family=DM+Mono|Roboto+Mono#about
 
 <strong>GitHub del creador:</strong> github.com/googlefonts/dm-mono
+
+<strong>Atribuciones de Mockups: </strong>
    
 
 
