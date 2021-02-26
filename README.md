@@ -53,6 +53,13 @@ link Pagina: www.tuarea.ga
   2. Su accesibilidad no debe ser limitada por la hora del dia por ello necesitamos un hosting.
   3. Uso de JavaScript para la funcionalidad de las partes que requieran operaciones matematicas, esto se aplica tanto a la calculadora como a los conversores de medidas y a la parte de las areas.
 #### diagrama de casos
+
+# diagrama de calculadora 
+
+# diagrama de areas
+
+# diagrama de conversion 
+
 ## diseño de requerimientos
 ## desarrollo
 ## pruebas
