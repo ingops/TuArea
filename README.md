@@ -11,27 +11,27 @@
 ## <center> Politecnico internacional</center>
 
 # Tabla de contenido
-  - [Introduccion](#introduccion)
+  - [Introducción](#introduccion)
   - [Reglas de negocio](#reglas-de-negocio)
   - [Requerimientos](#requerimientos)
-    - [levantamiento de requerimientos](#levantamiento-de-requerimientos)
-    - [analisis de requerimientos](#analisis-de-requerimientos)
-      - [diagrama de casos](#diagrama-de-casos)
-  - [diseño de requerimientos](#diseño-de-requerimientos)
-  - [desarrollo](#desarrollo)
-  - [pruebas](#pruebas)
-  - [implementacion](#implementacion)
-  - [mantenimiento](#mantenimiento)
+    - [Levantamiento de requerimientos](#levantamiento-de-requerimientos)
+    - [Analisis de requerimientos](#analisis-de-requerimientos)
+      - [Diagrama de casos](#diagrama-de-casos)
+  - [Diseño de requerimientos](#diseño-de-requerimientos)
+  - [Desarrollo](#desarrollo)
+  - [Pruebas](#pruebas)
+  - [Implementación](#implementacion)
+  - [Mantenimiento](#mantenimiento)
  
 
-## Introduccion
+## Introducción
 Se solicita el desarrllo de una pagina web que tenga diferentes funcionalidades, todas enfocadas a operaciones matematicas y con un diseño en particular, entre las funcinalidades esta una calculadora, un conversor de medidas que cuente con medidas internacionales todo mostrado en pantalla en tiempo real. 
 
-La pagina va a contar con licencias Creative Commons que son de libre uso, utilizando tecnologias como lo son JavaScript,HTML 5,CSS 3,GIT y herramientas de diseño como Photoshop.
+La contará con licencias Creative Commons, que son de libre uso, utilizando tecnologias como lo son JavaScript,HTML 5,CSS 3,GIT y herramientas de diseño como Photoshop.
 
-El tiempo estimado de desarrollo se establecio en 3 dias, siendo el dia uno para levantamiento de requerimiento y analasis de los mismos, y los otros dos para desarrollo y entrega al cliente y subido al repositorio de la organizacion.
+El tiempo estimado de desarrollo se establecio en 3 dias, siendo el dia uno para levantamiento de requerimiento y analasis de los mismos, y los otros dos para desarrollo y entrega al cliente para su posterior subida al repositorio de la organizacion.
 
-link Pagina: www.tuarea.ga
+Link Pagina: www.tuarea.ga
 
 ## Reglas de negocio
 1. Todo cliente tiene permitido adquirir cualquier copia de la Calculadora, y a usarla para proposito personal, académico e industrial.
@@ -42,12 +42,13 @@ link Pagina: www.tuarea.ga
 
 
 ## Requerimientos
-### levantamiento de requerimientos
-  1. Facil acceso desde *cualquier dispositivo* sin perder ninguna cualidad.
+### Levantamiento de requerimientos
+  1. Fácil acceso desde <strong>*cualquier dispositivo*</strong> sin perder ninguna cualidad.
   2. Es necesarioa una calculadora con operaciones basicas para poder obtener medidas exactas en el instante que sea deseado. 
-  3. Conversor de medidas tanto internacionales, como las usadas por estados unidos.
-  4. Un apartado de areas para las figuras mas basicas (triangulo,circulo,rectangulo, etc) para ayudar a sacar cantidades de material con exactitud.
+  3. Conversor de medidas tanto internacionales, como las usadas por países angroparlantes, entre otros.
+  4. Un apartado de áreas para las figuras más básicas (triangulo, circulo, rectangulo, etc) para ayudar a dar sus resultados en cantidades de material con exactitud.
   
+<<<<<<< HEAD
 ### analisis de requerimientos
   1. para que la aplicacion sea funcional en todos los dispositivos necesitamos el uso del lenguaje JavaScrip ademas de otro tipo de herramientas como lo son CSS y HTML, con esto se busca llegar a el punto maximo de responsive posible.
   2. Su accesibilidad no debe ser limitada por la hora del dia por ello necesitamos un hosting.
@@ -65,5 +66,17 @@ link Pagina: www.tuarea.ga
 ## pruebas
 ## implementacion
 ## mantenimiento
+=======
+### Analisis de requerimientos
+  1. Para que la aplicación sea funcional en todos los dispositivos necesitamos el uso del lenguaje JavaScrip ademas de otro tipo de herramientas como lo son CSS y   HTML, con esto se busca llegar a el punto maximo de responsive posible.
+  2. Su accesibilidad no debe ser limitada por la hora del dia, por ello necesitamos un hosting.
+  3. Uso de JavaScript para la funcionalidad de las partes que requieran operaciones matematicas, esto se aplica tanto a la calculadora como a los conversores de medidas y a la parte de las áreas.
+#### Diagrama de casos
+## Diseño de requerimientos
+## Desarrollo
+## Pruebas
+## Implementacion
+## Mantenimiento
+>>>>>>> e64813340a3f3a630300e25dd264af28a43475cd
 
 
