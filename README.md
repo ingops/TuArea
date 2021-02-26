@@ -6,6 +6,8 @@
 
 ## <center> Christian Martinez </center>
 
+## <center> Angel Cruz </center>
+
 ## <center> Politecnico internacional</center>
 
 # Tabla de contenido
@@ -36,7 +38,7 @@ link Pagina: www.tuarea.ga
 
 2. No está permitido usar la aplicación para su comercialización, a menos que se le de reconocimiento o meritos a sus desarrolladores.
 
-3. Al ser una aplicación de código abierto, esta permitido realizar cambios pertinentes para mejorara la aplicacion en cualquiera de sus formas.
+3. Al ser una aplicación de código abierto, esta permitido realizar cambios pertinentes para mejorar la misma en cualquiera de sus formas.
 
 
 ## Requerimientos
