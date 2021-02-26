@@ -48,25 +48,6 @@ Link Pagina: www.tuarea.ga
   3. Conversor de medidas tanto internacionales, como las usadas por países angroparlantes, entre otros.
   4. Un apartado de áreas para las figuras más básicas (triangulo, circulo, rectangulo, etc) para ayudar a dar sus resultados en cantidades de material con exactitud.
   
-<<<<<<< HEAD
-### analisis de requerimientos
-  1. para que la aplicacion sea funcional en todos los dispositivos necesitamos el uso del lenguaje JavaScrip ademas de otro tipo de herramientas como lo son CSS y HTML, con esto se busca llegar a el punto maximo de responsive posible.
-  2. Su accesibilidad no debe ser limitada por la hora del dia por ello necesitamos un hosting.
-  3. Uso de JavaScript para la funcionalidad de las partes que requieran operaciones matematicas, esto se aplica tanto a la calculadora como a los conversores de medidas y a la parte de las areas.
-#### diagrama de casos
-
-# diagrama de calculadora 
-
-# diagrama de areas
-
-# diagrama de conversion 
-
-## diseño de requerimientos
-## desarrollo
-## pruebas
-## implementacion
-## mantenimiento
-=======
 ### Analisis de requerimientos
   1. Para que la aplicación sea funcional en todos los dispositivos necesitamos el uso del lenguaje JavaScrip ademas de otro tipo de herramientas como lo son CSS y   HTML, con esto se busca llegar a el punto maximo de responsive posible.
   2. Su accesibilidad no debe ser limitada por la hora del dia, por ello necesitamos un hosting.
@@ -77,6 +58,5 @@ Link Pagina: www.tuarea.ga
 ## Pruebas
 ## Implementacion
 ## Mantenimiento
->>>>>>> e64813340a3f3a630300e25dd264af28a43475cd
 
 
