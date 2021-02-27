@@ -58,12 +58,12 @@ Link Pagina: www.tuarea.ga
     graph TD;
 
     subgraph mostrar
-      
+      m(resultado.innerHTML=resultado)
     end
 
     subgraph igualar
       Imp(numeroFinal+medida)
-      Imp --> resultado
+      Imp --> resultado --> m
     end
 
     subgraph calcular
