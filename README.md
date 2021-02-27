@@ -81,7 +81,7 @@ Link Pagina: www.tuarea.ga
   1. ![Imagén](img/Mockup1.png)
   2. ![Imagen](img/mockup2.png)
 
-## Licencia
+## Legal
 ![Imagén](img/Licencia.png)
    
    <strong> Atribución – No comercial – Compartir:</strong> Están permitidos, otros a distribuir, remezclar, retocar, y crear a partir de tu obra de modo no comercial, siempre y cuando te den crédito y licencien sus nuevas creaciones bajo las mismas condiciones.
