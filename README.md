@@ -57,7 +57,7 @@ Link Pagina: www.tuarea.ga
   ```mermaid
     graph TD;
 
-    subgraph mostrar
+subgraph mostrar
       m(resultado.innerHTML=resultado)
     end
 
@@ -70,23 +70,23 @@ Link Pagina: www.tuarea.ga
       base[/base = base.value/]-->altura[/altura = altura.value/]
       altura --> medida[/medida = medida.value/]
       medida --> Imp
-      t3{numeroFigura}
-      met1(altura * altura)
-      met2(base * altura/2)
-      nF(numeroFinal)
-      t3 --> case1 --> met1 --> nF
-      t3 --> case3 --> met1 
-      t3 --> case2 --> met2 --> nF
-      t3 --> case4 --> met2 
+    t3{numeroFigura}
+    met1(altura * altura)
+    met2(base * altura/2)
+    nF(numeroFinal)
+    t3 --> case1 --> met1 --> nF
+    t3 --> case3 --> met1 
+    t3 --> case2 --> met2 --> nF
+    t3 --> case4 --> met2 
     end
-    
+
     subgraph noFigura
     start --> t1(numeroFigura = Function.clicked)
     t1 --> t3
     end
-
-
     
+
+
 ``` 
 ### conversor de medidas
   ```mermaid
