@@ -34,16 +34,7 @@
         igualar();
     }
     function igualar(){ 
-        if(medida == "m"){
-            resultado = numeroFinal +""+medida;
-        
-        }
-        if(medida == "cm"){
-            resultado = numeroFinal +" "+medida;
-        }
-        if(medida == "mm"){
-            resultado = numeroFinal +" "+medida; 
-        }
+        resultado = numeroFinal +" "+medida;    
         mostrar();
     }
 
