@@ -81,12 +81,9 @@ Link Pagina: www.tuarea.ga
     end
     
     subgraph noFigura
-    start --> t1(numeroFigura = Function.clicked)
-    t1 --> t3
+      start --> t1(numeroFigura = Function.clicked)
+      t1 --> t3
     end
-
-
-    
 ``` 
 ### conversor de medidas
   ```mermaid
@@ -118,12 +115,7 @@ Link Pagina: www.tuarea.ga
     a(ingreso de datos)-->b(medida1 = document.getElementById)
     a-->c(medida2 = document.getElementById)
     a-->d(Dato1 = document.getElementById)
-    
-   
-
-  
 ```
-
 ## Diseño de requerimientos
 
 ## Desarrollo
