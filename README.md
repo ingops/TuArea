@@ -57,7 +57,7 @@ Link Pagina: www.tuarea.ga
   ```mermaid
     graph TD;
 
-    subgraph mostrar
+subgraph mostrar
       m(resultado.innerHTML=resultado)
     end
 
@@ -70,35 +70,41 @@ Link Pagina: www.tuarea.ga
       base[/base = base.value/]-->altura[/altura = altura.value/]
       altura --> medida[/medida = medida.value/]
       medida --> Imp
-      t3{numeroFigura}
-      met1(altura * altura)
-      met2(base * altura/2)
-      nF(numeroFinal)
-      t3 --> case1 --> met1 --> nF
-      t3 --> case3 --> met1 
-      t3 --> case2 --> met2 --> nF
-      t3 --> case4 --> met2 
+    t3{numeroFigura}
+    met1(altura * altura)
+    met2(base * altura/2)
+    nF(numeroFinal)
+    t3 --> case1 --> met1 --> nF
+    t3 --> case3 --> met1 
+    t3 --> case2 --> met2 --> nF
+    t3 --> case4 --> met2 
     end
-    
+
     subgraph noFigura
       start --> t1(numeroFigura = Function.clicked)
       t1 --> t3
     end
+<<<<<<< HEAD
+=======
+    
+
+
+>>>>>>> 3ea41da1ece9e60fdf86437d37f0ac90d9e5a3ad
 ``` 
 ### conversor de medidas
   ```mermaid
     graph TD;
     subgraph conversion
     t3{medida1}
-    t3 --> conversionCM1 
-    t3 --> conversionCM2
-    t3 --> conversionCM3
-    t3 --> conversionCM4
-    t3 --> conversionCM5
-    t3 --> conversionCM6
-    t3 --> conversionCM7
-    t3 --> conversionCM8
-    t3 --> conversionCM9
+    t3 --> conversionCM1 -->t4
+    t3 --> conversionCM2 -->t4
+    t3 --> conversionCM3 -->t4
+    t3 --> conversionCM4 -->t4 
+    t3 --> conversionCM5 -->t4
+    t3 --> conversionCM6 -->t4
+    t3 --> conversionCM7 -->t4
+    t3 --> conversionCM8 -->t4
+    t3 --> conversionCM9 -->t4
     end
     subgraph conversionFinal
     t4--> conversionfinal1 --> mostrar
@@ -114,7 +120,11 @@ Link Pagina: www.tuarea.ga
 
     a(ingreso de datos)-->b(medida1 = document.getElementById)
     a-->c(medida2 = document.getElementById)
+<<<<<<< HEAD
     a-->d(Dato1 = document.getElementById)
+=======
+    a-->d(Dato1 = document.getElementById)  
+>>>>>>> 3ea41da1ece9e60fdf86437d37f0ac90d9e5a3ad
 ```
 ## Diseño de requerimientos
 
