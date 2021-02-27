@@ -106,11 +106,7 @@ Link Pagina: www.tuarea.ga
 
     a(ingreso de datos)-->b(medida1 = document.getElementById)
     a-->c(medida2 = document.getElementById)
-    a-->d(Dato1 = document.getElementById)
-    
-   
-
-  
+    a-->d(Dato1 = document.getElementById)  
 ```
 
 ## Diseño de requerimientos
