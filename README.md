@@ -93,15 +93,15 @@ subgraph mostrar
     graph TD;
     subgraph conversion
     t3{medida1}
-    t3 --> conversionCM1 
-    t3 --> conversionCM2
-    t3 --> conversionCM3
-    t3 --> conversionCM4
-    t3 --> conversionCM5
-    t3 --> conversionCM6
-    t3 --> conversionCM7
-    t3 --> conversionCM8
-    t3 --> conversionCM9
+    t3 --> conversionCM1 -->t4
+    t3 --> conversionCM2 -->t4
+    t3 --> conversionCM3 -->t4
+    t3 --> conversionCM4 -->t4 
+    t3 --> conversionCM5 -->t4
+    t3 --> conversionCM6 -->t4
+    t3 --> conversionCM7 -->t4
+    t3 --> conversionCM8 -->t4
+    t3 --> conversionCM9 -->t4
     end
     subgraph conversionFinal
     t4--> conversionfinal1 --> mostrar
