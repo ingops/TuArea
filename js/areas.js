@@ -31,9 +31,9 @@
                 numeroFinal = (base * altura)/2;
                 break;
         }
-        si();
+        igualar();
     }
-    function si(){ 
+    function igualar(){ 
         if(medida == "m"){
             resultado = numeroFinal +""+medida;
         

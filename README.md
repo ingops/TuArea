@@ -52,25 +52,48 @@ Link Pagina: www.tuarea.ga
   1. Para que la aplicación sea funcional en todos los dispositivos necesitamos el uso del lenguaje JavaScrip ademas de otro tipo de herramientas como lo son CSS y   HTML, con esto se busca llegar a el punto maximo de responsive posible.
   2. Su accesibilidad no debe ser limitada por la hora del dia, por ello necesitamos un hosting.
   3. Uso de JavaScript para la funcionalidad de las partes que requieran operaciones matematicas, esto se aplica tanto a la calculadora como a los conversores de medidas y a la parte de las áreas.
-#### Diagrama de casos
+## Diagrama de casos
+### Areas
+  ```mermaid
+    graph TD;
+    subgraph calcular
+    
+    t3{numeroFigura}
+    t3 --> case1
+    t3 --> case2
+    t3 --> case3
+    t3 --> case4
+    case
+    end
+    subgraph noFigura
+    start --> t1(numeroFigura = Function.clicked)
+    end
+    
+``` 
+
 ## Diseño de requerimientos
+
 ## Desarrollo
 ## Pruebas
 ## Implementacion
 ## Mantenimiento
-## Licencia y terceros
-### Licencia
-![Imagén](https://github.com/ingops/TuArea/blob/main/Licencia.png)
+## Mockup
+  1. ![Imagén](img/Mockup1.png)
+  2. ![Imagen](img/mockup2.png)
+
+## Licencia
+![Imagén](img/Licencia.png)
    
    <strong> Atribución – No comercial – Compartir:</strong> Están permitidos, otros a distribuir, remezclar, retocar, y crear a partir de tu obra de modo no comercial, siempre y cuando te den crédito y licencien sus nuevas creaciones bajo las mismas condiciones.
    
-### Terceros
-<strong>Licencia de Fuente:</strong> Estas fuentes tienen licencia de Open Font Licens, https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL.
+### Licenia de Terceros
+#### Licencia de fuente 
+  1. Poppins: [Open Font Licens](https://fonts.google.com/specimen/Poppins?query=POPPINS&preview.text_type=custom&selection.family=Poppins:wght@500)
+#### Licencia de teconologias
+  1. jquery: [MIT License](https://github.com/jquery/jquery) 
+  2. JavaScript: [LibreJS](https://www.gnu.org/software/librejs/index.html)
+   
 
-
-https://fonts.google.com/specimen/DM+Mono?query=Mono+&preview.text_type=custom&sidebar.open=true&selection.family=DM+Mono|Roboto+Mono#standard-styles
-
-https://fonts.google.com/specimen/DM+Mono?query=Mono+&preview.text_type=custom&sidebar.open=true&selection.family=DM+Mono|Roboto+Mono#about
 
 
 
