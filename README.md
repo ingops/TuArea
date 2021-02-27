@@ -88,6 +88,41 @@ Link Pagina: www.tuarea.ga
 
     
 ``` 
+### conversor de medidas
+  ```mermaid
+    graph TD;
+    subgraph conversion
+    t3{medida1}
+    t3 --> conversionCM1 
+    t3 --> conversionCM2
+    t3 --> conversionCM3
+    t3 --> conversionCM4
+    t3 --> conversionCM5
+    t3 --> conversionCM6
+    t3 --> conversionCM7
+    t3 --> conversionCM8
+    t3 --> conversionCM9
+    end
+    subgraph conversionFinal
+    t4--> conversionfinal1 --> mostrar
+    t4--> conversionfinal2 --> mostrar
+    t4--> conversionfinal3 --> mostrar
+    t4--> conversionfinal4 --> mostrar
+    t4--> conversionfinal5 --> mostrar
+    t4--> conversionfinal6 --> mostrar
+    t4--> conversionfinal7 --> mostrar
+    t4--> conversionfinal8 --> mostrar
+    t4--> conversionfinal9 --> mostrar
+    end
+
+    a(ingreso de datos)-->b(medida1 = document.getElementById)
+    a-->c(medida2 = document.getElementById)
+    a-->d(Dato1 = document.getElementById)
+    
+   
+
+  
+```
 
 ## Diseño de requerimientos
 
